@@ -1,0 +1,53 @@
+{% extends 'base.html' %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+<div class="container mx-auto px-6 py-4">
+    <h1 class="text-3xl font-semibold text-teal-500 mb-6">ML Model Metrics</h1>
+
+    <div class="metric items-center justify-between mb-4">
+        <div class="metric-title pr-4">Accuracy</div>
+        <div class="w-full bg-gray-200 rounded-full">
+            <div class="rounded bg-teal-500 text-white text-xs font-semibold leading-none py-1 text-center rounded-full" style="width: 96.5%;">&nbsp;&nbsp;96.491%</div>
+        </div>
+    </div>
+
+    <div class="metric items-center justify-between mb-4">
+        <div class="metric-title pr-4">Precision</div>
+        <div class="w-full bg-gray-200 rounded-full">
+            <div class="rounded bg-teal-500 text-white text-xs font-semibold leading-none py-1 text-center rounded-full" style="width: 100%;">&nbsp;&nbsp;100%</div>
+        </div>
+    </div>
+
+    <div class="metric items-center justify-between mb-4">
+        <div class="metric-title pr-4">Recall</div>
+        <div class="w-full bg-gray-200 rounded-full">
+            <div class="rounded bg-teal-500 text-white text-xs font-semibold leading-none py-1 text-center rounded-full" style="width: 90.7%;">&nbsp;&nbsp;90.697%</div>
+        </div>
+    </div>
+
+    <div class="metric items-center justify-between mb-4">
+        <div class="metric-title pr-4">F1 Score</div>
+        <div class="w-full bg-gray-200 rounded-full">
+            <div class="rounded bg-teal-500 text-white text-xs font-semibold leading-none py-1 text-center rounded-full" style="width: 95%;">&nbsp;&nbsp;95.121%</div>
+        </div>
+    </div>
+
+    <div class="confusion-matrix">
+        <h2 class="text-2xl font-semibold text-teal-500 mb-4">Confusion Matrix</h2>
+        <img src="/static/cmf.png" alt="Confusion Matrix">
+    </div>
+
+    <br>
+    <h1 class="font-bold">Download Report</h1>
+    <p>Click the button below to download the PDF report of the model:</p>
+    <br>
+    <a href="/static/Cancer_Report.pdf" download="Cancer_Report.pdf">
+        <button class="bg-teal-500 hover:bg-teal-600 text-white font-bold py-2 px-4 rounded">
+            Download PDF
+        </button>
+    </a>
+
+</div>
+{% endblock %}

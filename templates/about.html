@@ -1,0 +1,52 @@
+{% extends 'base.html' %}
+
+{% block title %}Student Information{% endblock %}
+
+{% block content %}
+<style>
+    section {
+        font-family: Arial, sans-serif;
+        background-color: #f0f0f0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 80vh;
+        margin: 0;
+    }
+
+    section div {
+        text-align: center;
+        background-color: #ffffff;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    section p {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+
+    section ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    section li {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+</style>
+<section>
+<div>
+    <p>This project on cancer is the work of the following students:</p>
+    <ul>
+        <li>Sandip Kumar Murmu : 2021ITB008</li>
+        <li>Aritra Sen : 2021ITB047</li>
+        <li>Arindam Mondal : 2021ITB007</li>
+        <li>Anshuman Dey : 2021ITB004</li>
+    </ul>
+</div>
+</section>
+{% endblock %}

@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+
+{% block title %}Bulk Predict{% endblock %}
+
+{% block content %}
+<br>
+<h2 class="text-xl font-bold">Upload your input CSV or XLSX file</h2>
+<br>
+<p>Make sure the file has the following columns:</p>
+
+{% for i in columns %}
+    {{ i }}&nbsp;&nbsp;&nbsp;&nbsp;
+{% endfor %}
+
+<br><br>
+<form action="/bulkPredict" method="POST" enctype="multipart/form-data">
+    <input type="file" name="file" accept=".csv,.xlsx" required>
+    <input type="submit" value="Upload">
+</form>
+{% endblock %}
