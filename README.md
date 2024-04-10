@@ -2,4 +2,4 @@
 ![Prediction Page](https://github.com/Nanidodo/ML-cancer-prediction/assets/96429982/5ef4ee3e-6337-4e6c-89c5-e32e59d18916)
 ![Bulk prediction output](https://github.com/Nanidodo/ML-cancer-prediction/assets/96429982/242876bf-2d0f-419c-a4c6-5390ba778528)
 ![Bulk prediction](https://github.com/Nanidodo/ML-cancer-prediction/assets/96429982/44aa8478-e19c-4d83-bf71-2dacc3692c15)
-[Sandeep_ML.pdf](https://github.com/Nanidodo/ML-cancer-prediction/files/14926907/Sandeep_ML.pdf)
+
