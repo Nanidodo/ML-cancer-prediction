@@ -3,3 +3,4 @@
 ![Bulk prediction output](https://github.com/Nanidodo/ML-cancer-prediction/assets/96429982/242876bf-2d0f-419c-a4c6-5390ba778528)
 ![Bulk prediction](https://github.com/Nanidodo/ML-cancer-prediction/assets/96429982/44aa8478-e19c-4d83-bf71-2dacc3692c15)
 
+[Cancer_Report.pdf](https://github.com/Nanidodo/ML-cancer-prediction/files/14926919/Cancer_Report.pdf)
